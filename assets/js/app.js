@@ -18,7 +18,7 @@ movie.addEventListener("keypress",e =>{
 })
 
 let apiCall =  async (movie) => {
-       await fetch(`http://www.omdbapi.com/?s=${movie}&apikey=${apikey}`)
+       await fetch(`https://www.omdbapi.com/?s=${movie}&apikey=${apikey}`)
       .then(res=>res.json())
       .then(data=>{
            setMovie(data.Search[0]);

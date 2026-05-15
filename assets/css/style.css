@@ -1,0 +1,150 @@
+body{
+  background-color: white;
+}
+
+.main_header_div {
+    background-color: #212529; 
+    display:flex;
+    align-items: center;
+    justify-content: space-between; 
+
+}
+
+.header_left_side {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.header_left_side img {
+    width: 20%;
+    height: 10%;
+}
+
+.header_left_side label{
+    font-size: 40px;
+    font-family: Gutter_Rust_Italic;
+    color: white;
+}
+
+.page_logo_div {}
+
+.main_body_div{
+
+    background-color: white; 
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+
+}
+
+.header_right_side {
+    width: 50%;
+    height: 15%;
+    display: flex;
+    justify-content: right;
+    align-content: center;
+}
+
+.header_right_side input{
+    cursor: text;
+    border-radius: 0.2rem;
+    margin-right: 25px;
+    border: none;
+    outline: none;
+    background-color: #ced4da;
+    color: #343a40;
+    font-size: 20px;
+    border-bottom: 1px #54525200 solid;
+}
+
+.body_right_side{
+    display: flex;
+    align-items:center ;
+    width: 100%;
+   
+}
+
+.body_left_side_img{
+      width: 5%;
+      height: 2%; 
+      align-items:center; 
+      justify-content:right;
+
+}
+
+.body_right_side ul {
+    align-items: center;
+    margin-left: 50px;
+   
+}
+
+.body_right_side label {
+    justify-content:left;
+    color: black;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+
+.button{
+    width: 150px;
+    height: 50px;
+    color:white;
+    padding: 40px 700px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.button button{
+    color: black;
+    width: 180px;
+    height: 55px;
+    font-size: 20px;
+    padding: 12px 20px;
+    background: linear-gradient(90deg, white , gray);
+     box-shadow: 5px 4px 6px rgba(0,0,0,0.3); 
+    border-color: gray;
+    
+   
+}
+
+@media(max-width:1387px){ 
+
+     .button {
+        align-items: start;
+        justify-content: left;
+     }
+     
+} 
+
+
+
+
+
+/* @media(max-width:576px){
+
+     .body_left_side_img{
+        align-items: start;
+     }
+     
+
+}
+
+@media(max-width:768px){
+
+
+
+}
+
+@media(max-width:992px){
+
+
+
+} */
+
+

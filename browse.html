@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse Movies</title>
+    <style>
+            #heading{
+             text-align:center;
+           }
+
+          #movie_container{
+            display:grid;
+            grid-template-columns: repeat(4,1fr);
+            gap:20px;
+           }
+
+           .movie_card{
+            text-align: center;
+           }
+
+           img{
+            width: 300px;
+            height: 200px;
+           }
+
+    </style>
+</head>
+<body>
+
+    <h1 id="heading">Browse Movies</h1>
+
+    <div id="movie_container"></div>
+
+    <script src = "browse.js"></script>
+   
+</body>
+</html>
